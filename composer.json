@@ -1,0 +1,25 @@
+{
+    "name": "marcinkwiatkowski/sample-delivery-method",
+    "description": "Sample Magento 2 Delivery method",
+    "version": "1.0.0",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Marcinkwiatkowski\\SampleDeliveryMethod\\": ""
+        }
+    }
+}
